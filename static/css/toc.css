@@ -57,3 +57,20 @@ h1, h2, h3, h4, h5, h6 {
     color: #0056b3;
     /* Darken link on hover */
 }
+
+/* Hide the link by default */
+.headerlink {
+    visibility: hidden; /* Keeps the space reserved but hides the link */
+    cursor: pointer; /* Show pointer when hovering */
+  }
+  
+  /* Show the link when hovering over the h1 */
+  h1:hover .headerlink,
+  h2:hover .headerlink,
+  h3:hover .headerlink,
+  h4:hover .headerlink,
+  h5:hover .headerlink,
+  h6:hover .headerlink
+  {
+    visibility: visible;
+  }
