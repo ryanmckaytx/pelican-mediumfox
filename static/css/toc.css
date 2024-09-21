@@ -1,0 +1,59 @@
+/* Container for the Table of Contents */
+.toc {
+    float: right;
+    /* Makes the TOC float to the right */
+    width: 250px;
+    /* Set a specific width for the TOC */
+    margin-left: 20px;
+    /* Add space between TOC and content */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    /* Clears floats on both sides */
+}
+
+.toc .toctitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Style the list */
+.toc ul {
+    list-style-type: none;
+    /* Remove default bullets */
+    padding-left: 0;
+}
+
+.toc li {
+    margin-top: 0.5rem;
+    /* Spacing between list items */
+}
+
+.toc li a {
+    text-decoration: none;
+    /* Remove underline */
+    color: #5a5a5a;
+    /* Link color */
+    font-weight: 500;
+    /* Medium bold for link text */
+    transition: color 0.3s ease;
+    /* Smooth color transition */
+}
+
+/* Nested lists for sub-items */
+.toc ul ul {
+    margin-left: 20px;
+    /* Indent for subitems */
+}
+
+.toc li a:hover {
+    color: #0056b3;
+    /* Darken link on hover */
+}

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import "toc.css";
 @import "table.css";
 /* line 5, ../../../.rvm/gems/ruby-1.9.3-p551/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
