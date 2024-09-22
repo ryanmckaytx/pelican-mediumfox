@@ -7760,6 +7760,13 @@ article .meta a {
   margin: 30px 0px;
 }
 
+.full-single-article li {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 /* line 110, ../sass/base/_layout.scss */
 .home-icon {
   position: fixed;

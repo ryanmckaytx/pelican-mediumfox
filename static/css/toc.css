@@ -26,11 +26,6 @@
     padding-left: 0;
 }
 
-.toc li {
-    margin-top: 0.5rem;
-    /* Spacing between list items */
-}
-
 .toc li a {
     text-decoration: none;
     /* Remove underline */
@@ -40,6 +35,8 @@
     /* Medium bold for link text */
     transition: color 0.3s ease;
     /* Smooth color transition */
+    font-size: 14px;
+    line-height: 1;
 }
 
 /* Nested lists for sub-items */
