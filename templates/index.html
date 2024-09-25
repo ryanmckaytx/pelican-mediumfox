@@ -62,9 +62,9 @@
       </div>
     </div>
     <hr class="divider-short"/>
-    <div class="archive-link">
-      <h3><a href="{{ SITEURL }}/{{ ARCHIVES_URL }}">All Posts</a></h3>
-    </div>
+    {% if articles_page.has_other_pages() %}
+      {% include 'pagination.html' %}
+    {% endif %}
   </div>
 </div>
 {% endblock content %}

@@ -1,0 +1,25 @@
+nav.pagination {
+    text-align: center;
+    display: block;
+  }
+  
+nav.pagination a, nav.pagination span {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #115192;
+    border: 1px solid #115192;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  nav.pagination a:hover {
+    background-color: #115192;
+    color: white;
+  }
+  
+  nav.pagination span {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
