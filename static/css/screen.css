@@ -7647,6 +7647,11 @@ button.close {
   margin-bottom: 8px;
   outline: 0;
   word-break: break-word;
+  text-shadow: 
+    1px 1px 0 #115192,  /* Bottom-right shadow */
+    -1px 1px 0 #115192, /* Bottom-left shadow */
+    1px -1px 0 #115192, /* Top-right shadow */
+    -1px -1px 0 #115192; /* Top-left shadow */
 }
 /* line 30, ../sass/base/_layout.scss */
 .hero > p {
